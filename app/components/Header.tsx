@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Header = () => {
   return (
-    <div className='flex w-full justify-between bg-black px-10 py-6 items-center fixed'>
+    <div className='flex w-full justify-between bg-black px-10 py-6 items-center fixed max-h-full'>
         <section>
             <a href="#"><Image  src={'./valorant-logo.svg'} width={35} height={35} alt='logo valorant'/>    </a>
         </section>
