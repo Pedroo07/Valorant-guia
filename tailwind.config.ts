@@ -21,7 +21,8 @@ const config: Config = {
       fontFamily: {
         valorant: ["VALORANT", 'sans-serif'],
         next: ["DINNextW1G-Regular", 'sans-serif'],
-        tugsten: ["Tungsten-Bold", 'sans-serif']
+        tugsten: ["Tungsten-Bold", 'sans-serif'],
+        mark: ["Mark W05 Medium", 'Arial', 'sans-serif']
       }
     },
     
