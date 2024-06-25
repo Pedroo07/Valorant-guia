@@ -7,11 +7,11 @@ import { MainMaps } from './MainMaps'
 
 export const Main = () => {
     return (
-        <>
+        <main>
             <MainIntroduction />
             <MainAgents />
             <MainMaps/>
-        </>
+        </main>
     )
 }
 

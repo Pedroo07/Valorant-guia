@@ -4,7 +4,7 @@ import React from 'react'
 
 export const MainMaps = () => {
     return (
-        <section className='bg-Map-pattern flex justify-center items-center gap-20 min-h-[888px]'>
+        <section className='bg-Map-pattern flex justify-center items-center p-10 gap-20 max-h-[888px]'>
             <div className=''>
                 <h1 className='font-tugsten text-9xl uppercase text-color2'>Seus Mapas</h1>
                 <p className='flex flex-col gap-8 max-w-2xl text-lg'>

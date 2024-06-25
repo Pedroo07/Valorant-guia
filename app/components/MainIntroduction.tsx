@@ -3,7 +3,7 @@ import React from 'react'
 
 export const MainIntroduction = () => {
     return (
-            <section className='flex justify-center items-center pt-36 pb-16 min-h-[768px]'>
+            <section className='flex justify-center items-center p-20 pt-36 min-h-[768px]'>
                 <div className='pr-52'>
                     <h1 className='font-tugsten  text-color2 font-semibold text-9xl'>NÓS SOMOS<br /> VALORANT</h1>
                     <p className='flex flex-col gap-8 max-w-2xl text-lg'>

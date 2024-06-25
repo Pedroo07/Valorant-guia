@@ -19,6 +19,7 @@ export default function RootLayout({
         <link href="https://db.onlinewebfonts.com/c/561f38b1f4570de0fb8a39d691ab058c?family=Tungsten-Bold" rel="stylesheet" />
         <link href="https://db.onlinewebfonts.com/c/b621d1ffb46493164fd62fb7a83ab0ff?family=Mark+W05+Medium" rel="stylesheet"></link>
         <link href="https://db.onlinewebfonts.com/c/7bb508fd7255ec38b6f29cb4cf8668cf?family=DINNextW1G-Regular" rel="stylesheet" />
+        <link rel="shortcut icon" href="/ico.png" type="image/x-icon" />
       </head>
       <body>{children}</body>
     </html>
