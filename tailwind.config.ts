@@ -19,7 +19,8 @@ const config = {
     },
     extend: {
       backgroundImage: {
-        'agent-pattern': "url('/AgentBackground.png')"
+        'agent-pattern': "url('/AgentBackground.png')",
+        'Map-pattern' : "url('/MapsBackground.png')"
       },
       colors: {
         color1: "rgb(255, 70, 85)",
