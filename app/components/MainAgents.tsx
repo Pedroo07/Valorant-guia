@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export const MainAgents = () => {
@@ -11,7 +12,7 @@ export const MainAgents = () => {
                         <span className='font-semibold text-lg pt-8'>A CRIATIVIDADE É SUA MELHOR ARMA.</span>
                         Mais do que armas e munição, VALORANT inclui agentes com habilidades adaptativas, rápidas e letais, que criam oportunidades para você exibir sua mecânica de tiro. Cada Agente é único, assim como os momentos de destaque de cada partida!
                     </p>
-                    <Button className='mt-8 bg-color3 text-foreground hover:text-background'>Ver todos os agentes</Button>
+                    <Button className='mt-8 bg-color3 text-foreground hover:text-background'><Link href='/agents'> Ver todos os agentes</Link></Button>
                 </div>
                 <div>
                     <Image src="/Agents.png" alt="Agents" width={728} height={728} />

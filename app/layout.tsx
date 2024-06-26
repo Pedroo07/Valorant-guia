@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "Valorant Guia",
@@ -21,7 +23,11 @@ export default function RootLayout({
         <link href="https://db.onlinewebfonts.com/c/7bb508fd7255ec38b6f29cb4cf8668cf?family=DINNextW1G-Regular" rel="stylesheet" />
         <link rel="shortcut icon" href="/ico.png" type="image/x-icon" />
       </head>
-      <body>{children}</body>
+      <body>
+        <Header/>
+        {children}
+        <Footer/>
+        </body>
     </html>
   );
 }

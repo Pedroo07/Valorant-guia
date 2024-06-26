@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss"
+import img1 from './app/agents/img/background.webp'
 
 const config = {
   darkMode: ["class"],
@@ -20,7 +21,8 @@ const config = {
     extend: {
       backgroundImage: {
         'agent-pattern': "url('/AgentBackground.png')",
-        'Map-pattern' : "url('/MapsBackground.png')"
+        'Map-pattern' : "url('/MapsBackground.png')",
+        'dark-pattern': "url('/Darkbackground.webp')"
       },
       colors: {
         color1: "rgb(255, 70, 85)",

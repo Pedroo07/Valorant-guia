@@ -15,7 +15,7 @@ export const GuideIntroduction = () => {
         <div className='flex flex-col items-center'>
             <Image src={img1} alt='Brimstone quer te tornar um Agente melhor em VALORANT.' width={856} height={482} className='w-full h-[562px] filter blur-lg z-[-1]' />
             <section className='flex flex-col max-w-fit items-center border-b-4 border-double border-zinc-400'>
-                <Image src={img1} width={1000} height={739} alt='Brimstone quer te tornar um Agente melhor em VALORANT.' className='-mt-96 z-0' />
+                <Image src={img1} width={1000} height={739} alt='Brimstone quer te tornar um Agente melhor em VALORANT.' className='-mt-96' />
                 <h1 className='text-6xl uppercase font-tugsten'>Guia para iniciantes</h1>
                 <p className='text-lg py-8 font-mark text-zinc-700'>Brimstone quer te tornar um Agente melhor em VALORANT.</p>
             </section>
