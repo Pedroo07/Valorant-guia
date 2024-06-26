@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 import React from 'react'
 
 export const MainIntroduction = () => {
@@ -10,7 +11,7 @@ export const MainIntroduction = () => {
                         <span className='font-semibold text-lg pt-8'>DESAFIE SEUS LIMITES</span>
                         Misture o seu estilo e experiência em um cenário global e competitivo. Você terá 13 rodadas para atacar e defender com disparos certeiros e habilidades táticas. Com apenas uma vida por rodada, você deve pensar mais rápido que o oponente se quiser sobreviver. Encare inimigos nos modos Competitivo e Sem Ranque, além da Disputa da Spike e do Mata-Mata!
                     </p>
-                    <Button className='mt-8'>Conheça o jogo</Button>
+                    <Button className='mt-8'><Link href='/beginners-guide'>Conheça o jogo</Link></Button>
                 </div>
                 <div>
                     <video src="./video-main.mp4" autoPlay muted loop playsInline width={750} />
