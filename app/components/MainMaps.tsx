@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export const MainMaps = () => {
@@ -11,7 +12,7 @@ export const MainMaps = () => {
                     <span className='font-semibold text-lg pt-8'>BATALHE AO REDOR DO MUNDO</span>
                     Cada mapa serve como um palco para mostrar sua criatividade. Os mapas são feitos sob medida para estratégias de equipe, jogadas espetaculares e momentos eletrizantes. Faça as jogadas que todo mundo vai tentar imitar no futuro!
                 </p>
-                <Button className='mt-8'>Ver todos os mapas</Button>
+                <Button className='mt-8'><Link href='/maps'>Ver todos os mapas</Link></Button>
             </div>
             <div>
                 <Image src='/Maps.png' alt='Mapa' width={728} height={728} />
