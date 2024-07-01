@@ -9,10 +9,10 @@ import { GoArrowLeft, GoArrowRight } from 'react-icons/go'
 type MapitemProps = {
   title: string
   description: string
-  images: { src: string | any  }[]
+  images: { src: string | any }[]
 }
 
-export const MapItem:React.FC<MapitemProps> = ({title, description, images}) => {
+export const MapItem: React.FC<MapitemProps> = ({ title, description, images }) => {
   const [currentImgIndex, setCurrentImgIndex] = useState(0)
 
   const handlePrevClick = () => {
@@ -24,13 +24,12 @@ export const MapItem:React.FC<MapitemProps> = ({title, description, images}) => 
   }
 
   const currentImg = images[currentImgIndex].src
-  const progressClass = [
-    'w-1/5',
-    'w-2/5',
-    'w-3/5',
-    'w-4/5',
-    'w-5/5',
-  ][currentImgIndex]
+
+  const progressClasses: Record<number, string[]>  = {
+    4: ['w-1/4', 'w-2/4', 'w-3/4', 'w-full'],
+    5: ['w-1/5', 'w-2/5', 'w-3/5', 'w-4/5', 'w-full'],
+  }
+  const progressClass = progressClasses[images.length][currentImgIndex]
   return (
     <div className='flex flex-col gap-10 items-center p-10'>
       <div className='w-[1400px] flex flex-col gap-4 m-auto'>
