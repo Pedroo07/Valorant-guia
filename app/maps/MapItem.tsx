@@ -35,7 +35,7 @@ export const MapItem:React.FC<MapitemProps> = ({title, description, images}) => 
     <div className='flex flex-col gap-10 items-center p-10'>
       <div className='w-[1400px] flex flex-col gap-4 m-auto'>
         <h2 className='font-tugsten text-5xl uppercase'>{title}</h2>
-        <p className='font-mark text-xs '>{description}</p>
+        <p className='font-mark text-xs max-w-3xl'>{description}</p>
       </div>
       <Image src={currentImg} width={1400} height={888} alt='ds' />
       <div className='flex flex-col gap-6'>
