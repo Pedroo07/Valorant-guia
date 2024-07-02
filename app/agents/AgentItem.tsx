@@ -61,14 +61,13 @@ const agents = [
 
 export const Agent = () => {
     return (
-            <section className='grid grid-cols-4 gap-8 max-w-[1600px] pb-10 '>
+            <section className='grid grid-cols-4 gap-8 max-w-[1600px] pb-10'>
                 {agents.map((agent, index) => (
                     <AgentItem key={index} name={agent.name} src={agent.src} />
                 )
                 )}
             </section>
           )
-        
 }
 
 const AgentItem: React.FC<agentProps> = ({ src, name }) => {

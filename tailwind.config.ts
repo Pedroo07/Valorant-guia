@@ -29,7 +29,8 @@ const config = {
       backgroundImage: {
         'agent-pattern': "url('/AgentBackground.png')",
         'Map-pattern' : "url('/MapsBackground.png')",
-        'dark-pattern': "url('/Darkbackground.webp')"
+        'dark-pattern': "url('/Darkbackground.webp')",
+        'withe-pattern': "url('/witheBackground.webp')"
       },
       colors: {
         color1: "rgb(255, 70, 85)",
