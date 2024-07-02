@@ -16,6 +16,7 @@ import operator from './imgs/operator.webp';
 import ares from './imgs/ares.webp';
 import odin from './imgs/odin.webp';
 import faca from './imgs/faca.webp';
+import outlaw from './imgs/outlaw.webp'
 
 export const guns = [
   {
@@ -106,6 +107,12 @@ export const guns = [
     title: "Operator",
     description: "Rifle de precisão de alto dano.",
     url: operator,
+    type: "Rifles de Precisão"
+  },
+  {
+    title: "Outlaw",
+    description: "Cano duplo, impacto singular. A escolha perfeita para a hora do vamos ver.",
+    url: outlaw,
     type: "Rifles de Precisão"
   },
   {

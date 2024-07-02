@@ -36,7 +36,7 @@ export const GuideIntroduction = () => {
                     </p>
                     <Image src={img2} alt='brimstorm' width={880} height={495} />
                     <p className='text-start text-lg font-mark'>
-                        Antes de começar a primeira rodada, você escolherá um personagem dentre um grupo de Agentes, cada um com sua própria função e habilidades especiais que se complementam e ajudam a vencer a partida. É possível conferir mais informações sobre cada Agente na nossa <a href="" className='font-mark text-slate-700'>página de Agentes</a>.
+                        Antes de começar a primeira rodada, você escolherá um personagem dentre um grupo de Agentes, cada um com sua própria função e habilidades especiais que se complementam e ajudam a vencer a partida. É possível conferir mais informações sobre cada Agente na nossa <a href="/agents" className='font-mark text-slate-700 underline decoration-red-500'>página de Agentes</a>.
                     </p>
                     <Image src={img3} alt='brimstorm' width={880} height={495} />
                     <p className='text-start text-lg font-mark'>
@@ -50,13 +50,13 @@ export const GuideIntroduction = () => {
                         Ninguém vai dizer como gastar seu dinheiro, mas vamos aos <br />fatos: em algum momento, você vai ter que puxar o gatilho.
                         <br />
                         <br />
-                        Existe uma arma para cada situação. Você pode descobrir mais sobre elas na <br />nossa <a href="" className='font-mark underline decoration-red-500'>página de arsenal</a>. Se bater a dúvida, tente escolher com base no tipo e veja<br /> se combina com seu estilo de jogo, sua experiência e a estratégia da sua equipe.
+                        Existe uma arma para cada situação. Você pode descobrir mais sobre elas na <br />nossa <a href="/arsenal" className='font-mark underline decoration-red-500'>página de arsenal</a>. Se bater a dúvida, tente escolher com base no tipo e veja<br /> se combina com seu estilo de jogo, sua experiência e a estratégia da sua equipe.
                     </p>
                     <Image src={img5} alt='brimstorm' width={880} height={495} />
                     <p className='text-start text-lg font-mark'>
                         Cada mapa traz uma forma diferente de colocar seu estilo de jogo em<br /> prática. Demonstre sua criatividade e mecânica de tiro a cada embate.<br /><br />
 
-                        Abaixo temos informações básicas sobre os mapas, mas <br />você pode checar mais detalhes na nossa <a href="" className='font-mark underline decoration-red-500'>página de mapas</a>.
+                        Abaixo temos informações básicas sobre os mapas, mas <br />você pode checar mais detalhes na nossa <a href="/maps" className='font-mark underline decoration-red-500'>página de mapas</a>.
                     </p>
                     <Image src={img6} alt='brimstorm' width={880} height={495} />
                     <p className='text-start text-lg font-mark'>

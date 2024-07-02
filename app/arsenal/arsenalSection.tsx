@@ -13,7 +13,7 @@ type arsenalProps = {
 
  const ArsenalSection = () => {
     return (
-        <div className='grid grid-cols-3 justify-items-center gap-8 max-w-[1200px]'>
+        <div className='grid grid-cols-3 gap-8 max-w-[1200px]'>
             {guns.map((gun, index) => (
                 <ArsenalItem key={index} title={gun.title} description={gun.description} type={gun.type} url={gun.url} />
             ))}
@@ -23,11 +23,11 @@ type arsenalProps = {
 
 const ArsenalItem: React.FC<arsenalProps> = ({ url, title, description, type }) => {
     return (
-        <div className='flex flex-col '>
+        <div className='flex flex-col gap-2 last:col-start-2'>
             <Image width={380} height={220} alt='' src={url} />
-            <h6>{title}</h6>
-            <span>{type}</span>
-            <p>{description}</p>
+            <h6 className='text-2xl uppercase '>{title}.</h6>
+            <span className='font-next font-semibold uppercase'>types // {type}</span>
+            <p className='text-sm'>{description}</p>
         </div>
     )
 }
